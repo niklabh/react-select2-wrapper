@@ -22,6 +22,7 @@ export default class Select2 extends Component {
     events: PropTypes.array,
     options: PropTypes.object,
     multiple: PropTypes.bool,
+    tags: PropTypes.bool,
     onOpen: PropTypes.func,
     onClose: PropTypes.func,
     onSelect: PropTypes.func,
@@ -40,6 +41,7 @@ export default class Select2 extends Component {
     ],
     options: {},
     multiple: false,
+    tags: false,
   };
 
   constructor(props) {
